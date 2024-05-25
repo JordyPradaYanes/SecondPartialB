@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Building from '../components/vue/Building.vue';
+---
+
+<Layout title="Welcome to Astro.">
+    <Building client:load/>
+</Layout>
